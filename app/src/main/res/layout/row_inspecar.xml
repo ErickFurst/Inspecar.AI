@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CardCarInspec"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtViewTituloTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="95dp"
+            android:gravity="start"
+            android:text="Severidade: "
+            android:textColor="#2196F3"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/txtViewPredTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="125dp"
+            android:text="NA"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txtViewPredTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="70dp"
+            android:text="NA" />
+
+        <TextView
+            android:id="@+id/txtViewTituloTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="70dp"
+            android:gravity="start"
+            android:text="Tipo: "
+            android:textColor="#2196F3"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/txtViewPredTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="95dp"
+            android:text="NA" />
+
+        <TextView
+            android:id="@+id/txtViewTituloDanoAut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="45dp"
+            android:gravity="start"
+            android:text="Danificado: "
+            android:textColor="#2196F3"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/txtViewPredDanoAut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="45dp"
+            android:text="NA" />
+
+        <TextView
+            android:id="@+id/txtViewTituloTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="125dp"
+            android:text="O estilo é:"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageViewAut"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:src="@drawable/carroestrutura"></ImageView>
+
+        <TextView
+            android:id="@+id/txtViewTituloCarAut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:text="Veículo: "
+            android:textColor="#2196F3"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:visibility="invisible"></TextView>
+
+        <TextView
+            android:id="@+id/txtViewPredCarAut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="20dp"
+            android:text="NA"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/imageButtonTrash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginBottom="10dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/ic_delete_trash" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

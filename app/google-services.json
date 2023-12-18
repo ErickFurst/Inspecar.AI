@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "653694840016",
+    "project_id": "inspecar-ai",
+    "storage_bucket": "inspecar-ai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653694840016:android:5f12af6cebde3792d642d5",
+        "android_client_info": {
+          "package_name": "com.coresynesis.inspecarai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653694840016-15enr071jpfophgr4mlq76p1j3n0mver.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coresynesis.inspecarai",
+            "certificate_hash": "301c8bddae03bc7900a400fb71b3082e9d5bc1cb"
+          }
+        },
+        {
+          "client_id": "653694840016-8mfdj06bd2q9i3aun4ulc4k6pcugabhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi6s2qA5fbQyoCSMTfTOZ7cXy-rTw5rak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653694840016-8mfdj06bd2q9i3aun4ulc4k6pcugabhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

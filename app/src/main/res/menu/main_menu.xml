@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_principal"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_car"
+            android:icon="@drawable/inspecionar"
+            android:title="Nova Inspeção" />
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/ic_person"
+            android:title="Novo Usuário" />
+        <item
+            android:id="@+id/nav_ncar"
+            android:icon="@drawable/ic_car"
+            android:title="Novo Veículo" />
+    </group>
+
+    <item android:title="Consultas">
+        <group android:checkableBehavior="single"
+                android:id="@+id/menu_cons">
+                <item
+                    android:id="@+id/nav_inspec"
+                    android:icon="@drawable/query"
+                    android:title="Consultar Inspeção" />
+                <item
+                    android:id="@+id/nav_rlt"
+                    android:icon="@drawable/query"
+                    android:title="Consultar Inspeção Real Time" />
+        </group>
+    </item>
+
+    <item android:title="Configurações">
+        <group android:checkableBehavior="single"
+            android:id="@+id/menu_conf">
+            <item
+                android:id="@+id/nav_conf"
+                android:icon="@drawable/ic_settings"
+                android:title="Configurações" />
+        </group>
+    </item>
+
+    <item android:title="Logoff">
+        <group android:checkableBehavior="single"
+            android:id="@+id/menu_logout">
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit"
+                android:title="Logout" />
+        </group>
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="classes_array">
+        <item>Sem dano</item>
+        <item>Batida leve</item>
+        <item>Batida grave</item>
+        <item>Vidro quebrado</item>
+        <item>Dano retrovisor</item>
+        <item>Arranhao</item>
+        <item>Desgaste pintura</item>
+    </string-array>
+</resources>

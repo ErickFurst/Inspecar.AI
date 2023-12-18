@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtViewTituloTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="275dp"
+            android:gravity="start"
+            android:text="Severidade: "
+            android:textColor="#2196F3"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/txtViewDataHora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:gravity="start"
+            android:text="Data Hora:"
+            android:textColor="#2196F3"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/txtViewTituloTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="250dp"
+            android:gravity="start"
+            android:text="Tipo: "
+            android:textColor="#2196F3"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/txtViewPredTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="275dp"
+            android:text="NA" />
+
+        <TextView
+            android:id="@+id/txtViewTituloDanoAut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="225dp"
+            android:gravity="start"
+            android:text="Danificado: "
+            android:textColor="#2196F3"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/txtViewPredDanoAut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="225dp"
+            android:text="NA" />
+
+        <TextView
+            android:id="@+id/txtViewPredTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="250dp"
+            android:text="NA" />
+
+        <TextView
+            android:id="@+id/txtViewDataHoraAut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="200dp"
+            android:text="NA"
+            android:textSize="10sp" />
+
+        <ImageView
+            android:id="@+id/imageViewAut"
+            android:layout_width="362dp"
+            android:layout_height="160dp"
+            android:src="@drawable/carroestrutura"></ImageView>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

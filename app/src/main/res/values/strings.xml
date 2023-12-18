@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name" translatable="false">Ivi</string>
+    <string name="app_des" translatable="false">Inspeção Veicular Inteligente</string>
+    <string name="SiteCSY" translatable="false">www.coresynesis.com.br</string>
+    <string name="navigation_drawer_open" translatable="false">Open</string>
+    <string name="navigation_drawer_close" translatable="false">Open</string>
+    <string name="please_wait" translatable="false">Aguarde, por favor&#8230;</string>
+    <string name="ImgLoaded" translatable="false">Imagem Carro Caregada</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">Registrar</string>
+    <string name="name">Nome</string>
+    <string name="user_name">Nome usuário</string>
+    <string name="password">Senha</string>
+    <string name="email">e-mail</string>
+    <string name="sign_in_description_text">Entre seus dados</string>
+    <string name="carroPlaca">Placa</string>
+    <string name="Inspecionar">Inspecionar</string>
+    <string name="anoFabricacao">Ano de Fabricacao</string>
+    <string name="anoModelo">Ano Modelo</string>
+    <string name="carroCategoria">Categoria A/B/C/D/E</string>
+    <string name="carroChassi">Chassi</string>
+    <string name="carroCor">Cor</string>
+    <string name="carroMarca">Marca</string>
+    <string name="carroModelo">Modelo</string>
+    <string name="carroRenavam">Renavam</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="threshold">Threshold:</string>
+    <string name="TipoDano">Tipo Dano</string>
+</resources>

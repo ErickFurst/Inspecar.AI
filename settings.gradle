@@ -1,0 +1,3 @@
+rootProject.name = "Inspecar.AI"
+include ':app'
+include ':opencv452'
